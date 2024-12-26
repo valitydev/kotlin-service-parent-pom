@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>kotlin-service-parent-pom</artifactId>
-    <version>3.0.0-RC</version>
+    <version>3.0.0-RC-1</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -18,25 +18,23 @@
         <kotlin-logging-jvm.version>7.0.3</kotlin-logging-jvm.version>
     </properties>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.jetbrains.kotlin</groupId>
-                <artifactId>kotlin-stdlib</artifactId>
-                <version>${kotlin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jetbrains.kotlin</groupId>
-                <artifactId>kotlin-reflect</artifactId>
-                <version>${kotlin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.oshai</groupId>
-                <artifactId>kotlin-logging-jvm</artifactId>
-                <version>${kotlin-logging-jvm.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-reflect</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.oshai</groupId>
+            <artifactId>kotlin-logging-jvm</artifactId>
+            <version>${kotlin-logging-jvm.version}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
