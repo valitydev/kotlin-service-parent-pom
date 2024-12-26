@@ -10,12 +10,14 @@
     </parent>
 
     <artifactId>kotlin-service-parent-pom</artifactId>
-    <version>3.0.0-RC-1</version>
+    <version>3.0.0</version>
     <packaging>pom</packaging>
 
     <properties>
-        <kotlin.version>2.1.0</kotlin.version>
+        <kotlin.version>1.9.24</kotlin.version>
         <kotlin-logging-jvm.version>7.0.3</kotlin-logging-jvm.version>
+        <ktlint.version>3.4.0</ktlint.version>
+        <ktlint.skip>false</ktlint.skip>
     </properties>
 
     <dependencies>
@@ -83,7 +85,10 @@
             <plugin>
                 <groupId>com.github.gantsign.maven</groupId>
                 <artifactId>ktlint-maven-plugin</artifactId>
-                <version>3.4.0</version>
+                <version>${ktlint.version}</version>
+                <configuration>
+                    <skip>${ktlint.skip}</skip>
+                </configuration>
                 <executions>
                     <execution>
                         <phase>validate</phase>
