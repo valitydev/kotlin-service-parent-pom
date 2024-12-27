@@ -59,7 +59,6 @@
                         <configuration>
                             <sourceDirs>
                                 <source>src/main/kotlin</source>
-                                <source>target/generated-sources/jooq</source>
                             </sourceDirs>
                         </configuration>
                     </execution>
