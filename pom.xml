@@ -10,12 +10,12 @@
     </parent>
 
     <artifactId>kotlin-service-parent-pom</artifactId>
-    <version>3.0.1</version>
+    <version>3.0.2</version>
     <packaging>pom</packaging>
 
     <properties>
-        <kotlin.version>1.9.24</kotlin.version>
-        <kotlin-logging-jvm.version>7.0.4</kotlin-logging-jvm.version>
+        <kotlin.version>1.9.25</kotlin.version>
+        <kotlin-logging-jvm.version>7.0.5</kotlin-logging-jvm.version>
         <ktlint.version>3.5.0</ktlint.version>
         <ktlint.skip>false</ktlint.skip>
     </properties>
