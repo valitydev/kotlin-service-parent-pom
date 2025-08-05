@@ -15,7 +15,7 @@
 
     <properties>
         <kotlin.version>1.9.25</kotlin.version>
-        <kotlin-logging-jvm.version>7.0.5</kotlin-logging-jvm.version>
+        <kotlin-logging-jvm.version>7.0.11</kotlin-logging-jvm.version>
         <ktlint.version>3.5.0</ktlint.version>
         <ktlint.skip>false</ktlint.skip>
     </properties>
