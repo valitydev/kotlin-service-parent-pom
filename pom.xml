@@ -20,6 +20,30 @@
         <ktlint.skip>false</ktlint.skip>
     </properties>
 
+    <name>kotlin-service-parent-pom</name>
+    <description>kotlin-service-parent-pom</description>
+    <url>https://github.com/valitydev/kotlin-service-parent-pom</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <organization>Vality.Dev</organization>
+            <organizationUrl>https://vality.dev/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/valitydev/kotlin-service-parent-pom.git</connection>
+        <developerConnection>scm:git:ssh://github.com/valitydev/kotlin-service-parent-pom.git</developerConnection>
+        <url>https://github.com/valitydev/kotlin-service-parent-pom/tree/master</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
