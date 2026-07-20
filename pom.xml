@@ -6,19 +6,19 @@
     <parent>
         <groupId>dev.vality</groupId>
         <artifactId>service-parent-pom</artifactId>
-        <version>4.0.0-BETA-1</version>
+        <version>4.0.0</version>
     </parent>
 
     <artifactId>kotlin-service-parent-pom</artifactId>
-    <version>4.0.0-BETA-1</version>
+    <version>4.0.0</version>
     <packaging>pom</packaging>
 
     <properties>
-        <kotlin.version>2.3.20-RC2</kotlin.version>
-        <kotlin-logging-jvm.version>7.0.14</kotlin-logging-jvm.version>
-        <ktlint.version>3.5.0</ktlint.version>
+        <kotlin.version>2.4.10</kotlin.version>
+        <kotlin-logging-jvm.version>8.0.4</kotlin-logging-jvm.version>
+        <ktlint.version>3.7.1</ktlint.version>
         <ktlint.skip>false</ktlint.skip>
-        <mockito-kotlin.version>6.2.3</mockito-kotlin.version>
+        <mockito-kotlin.version>6.3.0</mockito-kotlin.version>
     </properties>
 
     <name>kotlin-service-parent-pom</name>
